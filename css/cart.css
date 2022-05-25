@@ -1,0 +1,39 @@
+body{
+    margin:50px;
+    background-image: url("https://thumbs.dreamstime.com/z/makeup-brush-scatt…red-blush-grey-stone-background-top-215512406.jpg");
+}
+
+.Tprice, .pprice{
+    color: purple;
+}
+.btn.delete_btn{
+    margin: 10px;
+    background-color: rgb(241, 190, 190);
+}
+.cartItems{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    width: 50%;
+}
+.heading{
+    color:#8421ab;
+}
+.totalPrice{
+    background-color: darkcyan;
+    height: 40px;
+    margin: 10px;
+}
+.tAmountContainer{
+    margin: 10px;
+    color:purple;
+    font-size: larger;
+}
+.buy{
+    margin: 10px;
+    background-color: darkcyan;
+    height: 40px;
+    width: 400px;
+    margin: auto;
+}

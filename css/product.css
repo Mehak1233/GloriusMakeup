@@ -1,0 +1,32 @@
+body{
+   
+    background-image: url("	https://cdn.wallpapersafari.com/19/52/VWbfAi.jpg");
+}
+.heading{
+    color: #8421ab;
+}
+.plink{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#addCartBtn{
+    color: white;
+    font-size: medium;
+    background-color: black;
+    width: 40%;
+    height: 40px;
+    margin:10px;
+}
+
+#image {
+    height:500px;
+}
+
+#description, #pLink, #pName, #pPrice{
+    font-size: 30px;
+}
+
+#pPrice{
+    color:#023020 ;
+}

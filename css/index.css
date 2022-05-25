@@ -1,0 +1,66 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headContainer{
+    height:600px;
+    padding:100px;
+    background-image: url("https://www.sciencenews.org/wp-content/uploads/2021/06/061521_mt_cosmetics_feat.jpg");
+}
+ h1,h3{
+     
+     color: #8421ab;
+ }
+.productsRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.column{
+    flex: 20%;
+    max-width: 30%;
+   
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.productCard{
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(112, 184, 233, 0.2), 0 6px 20px 0 rgba(230, 101, 101, 0.19); 
+}
+
+.imageCard{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
+
+.showMore{
+    margin: 10px;
+    background-color:rgba(112, 184, 233, 0.2) ;
+}
+ .addCart{
+     margin: 10px;
+     background-color: rgba(230, 101, 101, 0.19);
+ }
+.link{
+    text-decoration: none;
+}
+#viewCart{
+    text-decoration: none;
+    font-size:30px;
+    color: white;
+    border: 1px;
+    margin-left: 1050px;
+}
+.cartNav{
+    padding:10px;
+    background-color: black;
+    height:70px;
+}
